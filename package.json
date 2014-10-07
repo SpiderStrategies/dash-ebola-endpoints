@@ -1,0 +1,29 @@
+{
+  "name": "dash-ebola-endpoints",
+  "version": "1.0.0",
+  "description": "Dash endpoints for graphing ebola data hosted in a dat project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpiderStrategies/dash-ebola-endpoints.git"
+  },
+  "keywords": [
+    "dash",
+    "ebola",
+    "dat"
+  ],
+  "author": "Nathan Bowser <nathan@spiderstrategies.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiderStrategies/dash-ebola-endpoints/issues"
+  },
+  "homepage": "https://github.com/SpiderStrategies/dash-ebola-endpoints",
+  "dependencies": {
+    "JSONStream": "^0.9.0",
+    "event-stream": "^3.1.7",
+    "request": "^2.45.0"
+  }
+}
