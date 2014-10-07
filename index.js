@@ -14,12 +14,6 @@ router.addRoute('/cases/total', function (req, res) {
   totals('cases').pipe(res)
 })
 
-// Cases in the last week (7 days)
-router.addRoute('/cases/total/weekly', function (req, res) {
-  // TODO Real data
-  res.end('30')
-})
-
 router.addRoute('/cases/country', function (req, res) {
   byCountry('cases').pipe(res)
 })
@@ -27,12 +21,6 @@ router.addRoute('/cases/country', function (req, res) {
 // Total deaths from ebola
 router.addRoute('/deaths/total', function (req, res) {
   totals('deaths').pipe(res)
-})
-
-// Deaths in the last week (7 days)
-router.addRoute('/deaths/total/weekly', function (req, res) {
-  // TODO Real data
-  res.end('10')
 })
 
 router.addRoute('/deaths/country', function (req, res) {
