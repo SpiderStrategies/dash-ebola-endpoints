@@ -27,4 +27,4 @@ router.addRoute('/deaths/country', function (req, res) {
   byCountry('deaths').pipe(res)
 })
 
-http.createServer(router).listen(process.env.PORT || 6078)
+http.createServer(router).listen(process.env.PORT || 6077)
